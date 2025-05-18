@@ -1,8 +1,11 @@
 🔐 Ethical Hacking Project : Simulating Real-World Network Explotation and Defense
 
 **Author** : Amritanshu Kumar
+
 **Semester**: 6
-**Branch** : Cyber Security  
+
+**Branch** : Cyber Security 
+
 Scanning and Enumerating a Local Network with Nmap
 Table of Contents
 Project: Simulating Real-World Network Exploitation and Defense
