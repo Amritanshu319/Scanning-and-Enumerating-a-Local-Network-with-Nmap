@@ -1,4 +1,4 @@
-🔐 Ethical Hacking Project : Simulating Real-World Network Explotation and Defense
+**🔐 Ethical Hacking Project : Simulating Real-World Network Explotation and Defense**
 
 **Author** : Amritanshu Kumar
 
@@ -12,7 +12,7 @@ Project: Simulating Real-World Network Exploitation and Defense
 
 
 
-🎯 Project Objectives
+**🎯 Project Objectives**
 To understand and apply techniques in:
 Network scanning
 Service enumeration
@@ -20,7 +20,7 @@ Vulnerability exploitation
 Privilege escalation
 Password cracking
 Security remediation
-🛠 Tools Used
+**🛠 Tools Used**
 Kali Linux (Attacker Machine)
 Metasploitable (Target Machine)
 Nmap 
@@ -30,7 +30,7 @@ John the Ripper (often just called John) is a fast, open-source password cracker
 Metasploit Framework
 The Metasploit Framework is one of the most powerful and widely used tools for penetration testing, vulnerability exploitation, and red teaming. It provides a modular platform to test and exploit known vulnerabilities in networks, systems, and applications.
 
-🔍 Task 1: Basic Network Scan
+**🔍 Task 1: Basic Network Scan**
 
 Command:
 nmap -v 192.168.190.0/24
@@ -41,7 +41,7 @@ Host is up (0.0010s latency).
 Nmap scan report for 192.168.190.2
 Host is up (0.0020s latency).
 
-🧭 Task 2: Reconnaissance
+**🧭 Task 2: Reconnaissance**
 
 
 
@@ -96,7 +96,8 @@ Running: Linux 2.6.X
 OS CPE: cpe:/o:linux:linux\_kernel:2.6
 OS details: Linux 2.6.9 - 2.6.33
 
-📋 Task 3: Enumeration Summary
+**📋 Task 3: Enumeration Summary**
+
 Target IP Address: 192.168.190.129
 Operating System: Linux 2.6.9 - 2.6.33
 MAC Address: : 00:0C:29:8E:1A:27 (VMware)
@@ -105,12 +106,14 @@ Device Type: General-purpose
 Open Services (Excluding Hidden Ports)
 
 Hidden Services
-⚔️ Task 4: Exploitation of Services
+**⚔️ Task 4: Exploitation of Services**
+
  vsftpd 2.3.4: Exploited via known backdoor vulnerability.OpenSSH 4.7p1: Brute-force attack executed successfully.
 
 Java RMI: Remote code execution achieved via Metasploit module.
 
-👤 Task 5: Creating a Privileged User
+**👤 Task 5: Creating a Privileged User**
+
 Command:
 adduser amritanshu
 Password: hello
@@ -120,7 +123,8 @@ Password: hello
 /etc/shadow Hash:
  amritanshu:$1$nZbXuuER$XFdpV3m2niyQp/c4pDwiM0
 
-🔓 Task 6: Cracking Password Hash
+**🔓 Task 6: Cracking Password Hash**
+
 Stored Hash in `amritanshu.txt`:
 amritanshu:$1$nZbXuuER$XFdpV3m2niyQp/c4pDwiM0
 Cracking Commands:
@@ -128,7 +132,7 @@ john amritanshu.txt
 john amritanshu.txt --show
 Cracked Password: hello
 
-🛡️ Task 7: Remediation and Recommendations
+**🛡️ Task 7: Remediation and Recommendations**
 
 Identified Vulnerabilities & Fixes:
 
@@ -138,7 +142,8 @@ Identified Vulnerabilities & Fixes:
  Fix: Upgrade to OpenSSH 9.6
 3. Java RMI Service – allows remote execution
  Fix: Disable or firewall restrict access
-🎓 Major Learnings
+
+**🎓 Major Learnings**
 - Applied Nmap for full-range scanning and OS detection.
 - Understood enumeration and real-world exploitation techniques.
 - Gained skills in privilege escalation and hash cracking.
